@@ -1,0 +1,120 @@
+body {
+  background-color: #74ceff;
+}
+
+.myChar {
+   width: 50px;
+}
+
+.myMenu {
+  position: absolute;
+  bottom: 80px;
+  right: 20px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-image: url("MainMenu_learn2.png");
+}
+.overlay2 {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  max-width: 200px;
+  opacity: 0;
+  transition: .3s ease;
+  background-image: url("MainMenu_Glossary2.png");
+}
+.overlay3 {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  max-width: 200px;
+  opacity: 0;
+  transition: .3s ease;
+  background-image: url("MainMenu_credits2.png");
+}
+.container:hover .overlay1 {
+  opacity: 1;
+}
+.container:hover .overlay2 {
+  opacity: 1;
+}
+.container:hover .overlay3 {
+  opacity: 1;
+}
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+
+.h1 {
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  height: 100%;
+  width: 100%;
+  max-width: 200px;
+
+
+}
+
+.para {
+  border: 0px solid black;
+
+}
+
+.tab {
+  border: 0px solid black;
+
+}
+
+.resize {
+	max-width: 200px;
+	
+}
+
+.paddle {
+font-size: 30px;
+padding: 45px;
+
+}
